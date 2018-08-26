@@ -1,0 +1,51 @@
+.form-li{
+	border-bottom:1px solid #d9d9d9;
+	.item{
+		display:flex;
+		min-height:60px;
+		.item-left{
+			display:flex;
+			align-items:center;
+		}
+		.item-right{
+			flex:1;
+			display:flex;
+			align-items:center;
+			position:relative;
+			z-index:0;
+			input{
+				width:100%;
+			}
+		}
+		.getcode{
+			display:flex;
+			align-items:center;
+			border-radius:4px;
+			font-size:13px;
+			text-align:right;
+			p{
+				padding:8px 10px;
+				border-radius:5px;
+				color:#999;
+				background:#eee;
+				float:right;
+			}
+		}
+		.has{
+			p{
+				background:#3c3;
+				color:#fff;
+			}
+		}
+		.text-right{
+			text-align:right;
+		}
+
+	}
+	.errors{
+		color:red;
+		font-size:13px;
+		line-height:30px;
+		padding-bottom:10px;
+	}
+}
